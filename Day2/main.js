@@ -42,11 +42,13 @@ for (i = 0; i < ranges.length; i++) {
 					isDiff = true
 					break;
 				}
-				repeats++
-				if (repeats > 1) {
-					isDiff = true
-					break;
-				}
+// Uncomment the following block to get solution part 1
+				// repeats++
+				// if (repeats > 1) {
+				// 	isDiff = true
+				// 	break;
+				// }
+// Uncomment the previous block to get solution part 1
 			}
 
 			if (isDiff == false) {
